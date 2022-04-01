@@ -1,18 +1,24 @@
 /* IMPOSTAZIONI GENERALI */
-body{ color: #393d41;
+body {
+    color: #393d41;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.65;
-    text-align: center; 
+    text-align: center;
     overflow: auto;
-    
+
 }
 
-h1, h3 {color: #25a2c3;
-    font-family: 'Montserrat', sans-serif ;
+h1,
+h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    }
-h1 {font-size: xx-large;}    
+}
+
+h1 {
+    font-size: xx-large;
+}
 
 
 /* HEADER */
@@ -21,20 +27,23 @@ header {
 }
 
 header img {
-    text-align: center;
-    padding: 50px;
+    text-align: ;
+    padding: 10px;
+   
 }
 
 
 /* MAIN */
-.sec-1 {
+#title {
     background-image: url(../images/banner.jpg);
+    background-size: cover;
     margin: 5vw;
     width: 70vw;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 50px;
-    
+    padding-top: 40px;
+
 }
 
 
@@ -45,18 +54,42 @@ header img {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 7px;
-    
-    
-    }
-    
+    padding: 15px 25px;
+    border-radius: 5px;
+
+
+}
+
+.moto {
+    padding-bottom: 50px;
+}
+
 .laptop img {
     border-radius: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     max-width: 100%
-    
-    }
+}
+
+.lavoro {
+    padding-bottom: 50px;
+}
+
+.dove {
+    padding-bottom: 50px;
+}
+
+.ruolo {
+    padding-bottom: 50px;
+}
+
+.liberta {
+    padding-bottom: 50px;
+}
+
+
+
+
+
 .garantiaepi {
     background-color: #e22d0e;
     padding-top: 20px;
@@ -66,7 +99,13 @@ header img {
 
 }
 
-.garantiaepi div p {color: #fff; font-size: xx-large; font-weight: bold;}
+.garantiaepi div p {
+    color: #fff;
+    font-size: xxx-large;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.mario {padding-top: 50px;}
 
 /* ELEMENTI NELL' ASIDE */
 
@@ -83,10 +122,11 @@ article {
 .art3 {
     border-color: #dee1e3;
     border: solid;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     border-width: 0.1px;
 
 }
+
 article img {
     max-width: 100%;
 }
@@ -103,8 +143,11 @@ article a {
 /* FOOTER */
 
 footer {
-    background-color: #25a2c3; 
-    color: #fff; margin-top: 70px; font-size:large;  overflow: auto;
+    background-color: #25a2c3;
+    color: #fff;
+    margin-top: px;
+    font-size: large;
+    overflow: auto;
 }
 
 footer a {
@@ -119,6 +162,14 @@ footer a {
 
 
 
-.copyright {font-size: small;
-   
+.copyright {padding-top: 30px;
+    font-size: small;
+
+}
+
+.separatore {
+    padding: 50px;
+    width: 40%;
+    border-top: 1px solid;
+    padding-top: 10px;
 }
