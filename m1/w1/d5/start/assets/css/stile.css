@@ -1,0 +1,124 @@
+/* IMPOSTAZIONI GENERALI */
+body{ color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center; 
+    overflow: auto;
+    
+}
+
+h1, h3 {color: #25a2c3;
+    font-family: 'Montserrat', sans-serif ;
+    line-height: 1.5;
+    }
+h1 {font-size: xx-large;}    
+
+
+/* HEADER */
+header {
+    background-color: black;
+}
+
+header img {
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* MAIN */
+.sec-1 {
+    background-image: url(../images/banner.jpg);
+    margin: 5vw;
+    width: 70vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.bottone {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    
+    
+    }
+    
+.laptop img {
+    border-radius: 100%;
+    margin-bottom: 20px;
+    max-width: 100%
+    
+    }
+.garantiaepi {
+    background-color: #e22d0e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    margin-bottom: 70px;
+
+}
+
+.garantiaepi div p {color: #fff; font-size: xx-large; font-weight: bold;}
+
+/* ELEMENTI NELL' ASIDE */
+
+article {
+    margin: 5vw;
+    width: 70vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 50px;
+}
+
+.art1,
+.art2,
+.art3 {
+    border-color: #dee1e3;
+    border: solid;
+    margin-bottom: 70px;
+    border-width: 0.1px;
+
+}
+article img {
+    max-width: 100%;
+}
+
+
+article a {
+    text-decoration: none;
+    font-size: smaller;
+    color: #25a2c3;
+    font-weight: bold;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3; 
+    color: #fff; margin-top: 70px; font-size:large;  overflow: auto;
+}
+
+footer a {
+    color: #fff;
+}
+
+.contattatci {
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+
+
+.copyright {font-size: small;
+   
+}
