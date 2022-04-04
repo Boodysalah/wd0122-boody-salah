@@ -1,0 +1,18 @@
+/** per me gia tutto perfetto e il sito è giá responsive**/
+
+/** alcuni miglioramenti**/
+
+@media (min-width: 320px) {
+    body { 
+        font-size: 1.3rem;
+        padding: 5px;  
+    }
+    .imgLeft {display: none;}
+    .menu{display:ruby-base-container;}
+
+
+
+
+
+
+}
