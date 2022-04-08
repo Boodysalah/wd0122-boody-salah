@@ -44,7 +44,7 @@ header img {
     padding-right: 10vw;
     padding-bottom: 50px;
     padding-top: 40px;
-   
+
 
 }
 
@@ -144,9 +144,7 @@ article {
     border-color: #dee1e3;
     border: solid;
     margin-bottom: 50px;
-    border-width:0px
-    
-
+    border-width: 0px
 }
 
 article img {
@@ -191,7 +189,8 @@ footer a {
 
 }
 
-hr{ width: 17%;
+hr {
+    width: 17%;
     margin-bottom: 30px;
 
 }
