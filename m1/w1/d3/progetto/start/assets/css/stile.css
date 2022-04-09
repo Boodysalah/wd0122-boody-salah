@@ -16,7 +16,7 @@ main section div h2 {font-size: x-large; font-weight: bold; color: blue;}
 main section div a {  color: rgb(255, 0, 0);}
 main section h2 {font-size: x-large; font-weight: bold; color: blue;}
 
-main section div blockquote { background-size: 50% ;   font-weight: bold; background-color: gray; border-radius:10px; padding: 1.1em;padding: left 50px;mm }
+main section div blockquote {  ;   font-weight: bold; background-color: gray; border-radius:10px; padding: 1.1em;padding: left 50px;mm }
 main section div address b { font-weight: bold;}
 main section div p b { margin-top: 100%; font-weight: bold;}
 

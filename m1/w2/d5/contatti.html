@@ -17,55 +17,53 @@
 <body>
 
 
-  <header>
+  <header id="navdesktop">
+    
+    <div>
+
+      <img src="assets/images/logo.png">
+
+    </div>
+
     <nav>
-      
-      <img src="assets/images/logo.png" >
-      
-      <ul>
-        <li> <a href="index.html">Home</a> </li>
-        <li> <a href="chi-siamo.html">Chi siamo</a> </li>
-        <li> <a href="contatti.html">Contatti</a> </li>
-        <li> <a href="#">Registrati</a></li>
+      <ul class="list">
+        <li> <a class="list" href="index.html">Home</a> </li>
+        <li> <a class="list" href="chi-siamo.html">Chi siamo</a> </li>
+        <li> <a class="list" href="contatti.html">Contatti</a> </li>
+        <li> <a class="list bottone" href="#">Registrati</a></li>
       </ul>
+  </nav>
 
-    </nav>
-
-  </header>
+</header>
 
 
 
   <main>
 
-    <Section id="sec1">
-      <h1>Diventa un developer EPICO</h1>
+ 
 
-    </Section>
-
+    <section class="sec2" >
 
 
-    <section class="sec2">
-
-
-      <div>
+      <div class="form">
         <form method="post" action="dati.php" autocomplete="on">
           <fieldset>
           <input type="text" id="nome e cognome" name="nome e cognome" placeholder="nome e cognome">
           <input type="text" id="email" name="email" placeholder="indirizzo valido nome@casetta.com">
-          <textarea name="messaggio" id="messaggio" cols="24" rows="5" placeholder="Scrivi in breve il tuo messaggio"></textarea>
-          <a href="#dati.php">Invia il messaggio</a></li>
+          <textarea name="messaggio" id="messaggio" cols="21" rows="5" placeholder="Scrivi in breve il tuo messaggio"></textarea><br>
+          <a class="bottone" href="#dati.php">Invia il messaggio</a></li>
          </fieldset>
 
         </form>
       </div>
 
 
-
-      <div>
+<!--  ho visto opportuno mettere mail e tel in link per la UX -->
+      <div> 
         <h3>Sede formativa</h3>
         <p>Via Appia,1</p>
         <p>00100 Roma (RM)</p>
-        <p><a href="info@epicode.school">info@epicode.school</a></p>
+        <p><a href="info@epicode.school">info@epicode.school</a></p>  
         <p><a href="Tel.06-1234567">Tel.06-1234567</a></p>
         <br>
         <h3>Lavora con noi</h3>
@@ -100,7 +98,7 @@
       <div class="footinline">
         <h4>Iscriviti alla nostra newsletter</h4>
         <form>
-          <input type="text"> <br>
+          <input type="text"> 
           <a class="bottone" href="#">Va bene!</a>
         </form>
 

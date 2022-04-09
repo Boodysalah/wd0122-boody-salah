@@ -16,26 +16,45 @@
 
 <body>
 
-  <header>
-    <nav>
+  <header >
+    
       <div>
 
         <img src="assets/images/logo.png">
 
       </div>
 
-      <div>
-        <ul>
+      <nav id="navdesktop" >
+        <ul class="list">
           <li> <a class="list" href="index.html">Home</a> </li>
           <li> <a class="list" href="chi-siamo.html">Chi siamo</a> </li>
           <li> <a class="list" href="contatti.html">Contatti</a> </li>
-          <li> <a class="list" href="#">Registrati</a></li>
+          <li> <a class="list bottone" href="#">Registrati</a></li>
+        </ul>
+       </nav>
+
+
+        <nav id="navmobile" >
+          <label for="apri-menu" id="toggle"><i class="lni lni-menu"></i></label>
+        <input id="apri-menu" type="checkbox">
+        <ul class="menu">
+          <li> <a class="list" href="index.html">Home</a> </li>
+          <li> <a class="list" href="chi-siamo.html">Chi siamo</a> </li>
+          <li> <a class="list" href="contatti.html">Contatti</a> </li>
+          <li> <a class="list bottone" href="#">Registrati</a></li>
         </ul>
 
-      </div>
-    </nav>
+        </nav>
+
 
   </header>
+
+
+
+
+
+
+
 
 
 
@@ -51,12 +70,12 @@
           solo quando inizi a lavorare</P>
         <br>
 
-        <a class="bottone" href="#">Chiedi info</a>
+        <a class="bottone special" href="#">Chiedi info</a>
 
       </div>
     </Section>
 
-    <section class="sec2">
+    <section class="sec2colonna">
       <div>
         <h2>Perchè diventare un Developer?</h2>
         <p>Non servono lauree e competenze specifiche, solo impegno. Segui il corso online, dove vuoi tu. Il lavoro che
@@ -151,7 +170,7 @@
       <div class="footinline">
         <h4>Iscriviti alla nostra newsletter</h4>
         <form>
-          <input type="text"> <br>
+          <input type="text"> 
           <a class="bottone" href="#">Va bene!</a>
         </form>
 

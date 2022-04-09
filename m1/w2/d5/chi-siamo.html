@@ -16,27 +16,30 @@
 
 <body>
 
-  <header>
+  <header id="navdesktop">
+    
+    <div>
+
+      <img src="assets/images/logo.png">
+
+    </div>
+
     <nav>
-      
-      <img src="assets/images/logo.png" >
-      
-      <ul>
-        <li> <a href="index.html">Home</a> </li>
-        <li> <a href="chi-siamo.html">Chi siamo</a> </li>
-        <li> <a href="contatti.html">Contatti</a> </li>
-        <li> <a href="#">Registrati</a></li>
+      <ul class="list">
+        <li> <a class="list" href="index.html">Home</a> </li>
+        <li> <a class="list" href="chi-siamo.html">Chi siamo</a> </li>
+        <li> <a class="list" href="contatti.html">Contatti</a> </li>
+        <li> <a class="list bottone" href="#">Registrati</a></li>
       </ul>
+  </nav>
 
-    </nav>
-
-  </header>
+</header>
 
 
 
   <main>
   
-    <Section id="sec1">
+    <Section class="weare" >
       <h1>We are coder</h1>
   
       <P>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech. Vogliamo essere il movimento
@@ -50,13 +53,13 @@
   
   
     <section class="sec2">
-      <div>
+      <div class="fotoetesto">
         <img src="/assets/images/foto1.jpg">
         <p>Investiamo sul talento e vogliamo dimostrarlo: effettua un colloquio di selezione per accedere ad una delle 5
           borse di studio disponibili</p>
       </div>
   
-      <div>
+      <div class="fotoetesto">
         <img src="/assets/images/foto2.jpg">
         <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscono:
           contattaci e candidati subito</p>
@@ -67,18 +70,18 @@
   
     <table class="tab-mobile">
   
-      <div class="sfondoblu">
-        <tr>
+      <div>
+        <tr class="sfondoblu">
           <th>Base 500€</th>
           <td>30 ore di formazione</td>
         </tr>
   
-        <tr>
+        <tr class="sfondoblu">
           <th>Intermedio 1000€</th>
           <td>Tutte le caratteristiche del corso base</td>
         </tr>
   
-        <tr>
+        <tr class="sfondoblu">
           <th>Avvanzato 2000€</th>
           <td>Tutte le caratteristiche del corso intermedio</td>
         </tr>
@@ -101,18 +104,18 @@
         </tr>
       </div>
   
-      <div class="sfondoblu">
-        <tr>
+      <div>
+        <tr class="sfondoblu" >
           <th>Base 500€</th>
           <td>Stage aziendale</td>
         </tr>
   
-        <tr>
+        <tr class="sfondoblu">
           <th>Intermedio 1000€</th>
           <td>ripetizione del corso</td>
         </tr>
   
-        <tr>
+        <tr class="sfondoblu">
           <th>Avvanzato 2000€</th>
           <td>Supporto 24 ore</td>
         </tr>
@@ -183,7 +186,7 @@
       <div class="footinline">
         <h4>Iscriviti alla nostra newsletter</h4>
         <form>
-          <input type="text"> <br>
+          <input type="text"> 
           <a class="bottone" href="#">Va bene!</a>
         </form>
 
