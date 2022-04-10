@@ -17,7 +17,8 @@
 <body>
 
 
-  <header id="navdesktop">
+
+  <header >
     
     <div>
 
@@ -25,16 +26,34 @@
 
     </div>
 
-    <nav>
+    <nav id="navdesktop" >
       <ul class="list">
+        <li> <a class="list" href="index.html">Home</a> </li>
+        <li> <a class="list" href="chi-siamo.html">ChiSiamo</a> </li>
+        <li> <a class="list" href="contatti.html">Contatti</a> </li>
+        <li> <a class="list bottone" href="#">Registrati</a></li>
+      </ul>
+     </nav>
+
+
+      <nav id="navmobile" >
+        <label for="apri-menu" id="toggle"><i class="lni lni-menu"></i></label>
+      <input id="apri-menu" type="checkbox">
+      <ul class="menu">
         <li> <a class="list" href="index.html">Home</a> </li>
         <li> <a class="list" href="chi-siamo.html">Chi siamo</a> </li>
         <li> <a class="list" href="contatti.html">Contatti</a> </li>
         <li> <a class="list bottone" href="#">Registrati</a></li>
       </ul>
-  </nav>
+
+      </nav>
+
 
 </header>
+
+
+
+
 
 
 
@@ -97,10 +116,10 @@
 
       <div class="footinline">
         <h4>Iscriviti alla nostra newsletter</h4>
-        <form>
-          <input type="text"> 
+        <div class="largo">
+          <input type="text" placeholder="inserisci la tua email qui"> 
           <a class="bottone" href="#">Va bene!</a>
-        </form>
+        </div>
 
       </div>
     </section>
@@ -112,8 +131,6 @@
     </div>
 
   </footer>
-
-
 
 
 
