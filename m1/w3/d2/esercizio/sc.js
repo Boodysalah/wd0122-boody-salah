@@ -113,7 +113,22 @@ console.log(nomi);
 let conto = 5;
 conto += 5;
 conto += 5;
-conto += 5;
-conto += 5;
-conto += 5;
 console.log(conto);
+
+
+_______________________________________________________
+
+
+let num = 7
+let tsr = "etst"
+let bool = true
+let arr = []
+let obj = {}
+
+
+console.log(
+    typeof num,
+    typeof str,
+ 
+
+);

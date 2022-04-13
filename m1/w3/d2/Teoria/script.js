@@ -9,8 +9,15 @@ function cambiaSfondo(e){
     let colore = e.getAttribute("data-colore")
     console.log(colore);
 
-    e.style.backgroundColor = colore;
+    // e.style.backgroundColor = colore;
 
+
+
+if(e.style.backgroundColor == ""){
+    e.style.backgroundColor = colore;
+} else{e.style.backgroundColor = ""
+
+}
 }
 
 
