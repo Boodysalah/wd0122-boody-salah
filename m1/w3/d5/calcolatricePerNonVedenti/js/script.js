@@ -93,6 +93,23 @@ function sei() {
 
 
 
+function sei() {
+    let uno = document.querySelector(".sei")
+    uno.play()
+
+}
+
+
+
+
+function amici() {
+    let uno = document.querySelector(".amici")
+    uno.play()
+
+}
+
+
+
 
 
 
@@ -129,7 +146,7 @@ function cambiaColore() {
     document.querySelector("#calcolatrice").style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")"
 }
 
-function testo(params) {
+function testo() {
     let disp = document.querySelector(`#schermo`)
     disp.value = "hello, I'm blind-friendly"
 
@@ -150,12 +167,26 @@ function setOra() {
 
 setInterval(setOra, 1000)
 
+function fras() {
+    
+let salu = document.querySelector(".salumi")
 
 
 
+let sal = [`ciaoone al Vedente, noi vedenti pensiamo che:`, `come vedente,come stai oggi? sapevi che si dice:` , `Buongiorno signor Vedente, alcuni dicono:`, `Buongiorno vedente, guarda questa frase:`, `Buongiorno persona non cieca, ha mai sentito questo:`, `Buongiorno vecchio vedente, si dice che:`, `Hola vecchio Vedente, saapevi questa:`]
 
-let clicco = document.querySelector(".put1")
+let frasi = [`"In terra di ciechi chi ha un occhio è un signore"`, `“Se l'amore è cieco l'oculista è impotente?"` , `“Per il cieco non fa mai giorno.”` , `“Si dice che quando muori vedi in un attimo passarti davanti i momenti più significativi della tua vita. Ed è vero. Anche per un cieco.”` , `“In paese de orbi beato chi ga un ocio solo.”` , ` “Al cieco non giova pittura, color, specchio o figura.”`, `"Le scorciatoie sono tutte da percorreree, tranne quelle che portano ad uno vicolo cieco."` ]
 
-clicco.addEventListener("Keyup", function () {
-    alert(`ciao`)
-})
+console.log(sal.length);
+
+let smile = [ ` XD` , ` ;)`, `:D`, ` :)` , ` <:o:>)`, `:>`,`;D`]
+
+
+
+let rand = Math.floor(Math.random() * 7)
+
+let frase = sal[rand] + ` ` + frasi[rand] + ` ` + smile[rand];
+
+salu.value = frase
+
+}

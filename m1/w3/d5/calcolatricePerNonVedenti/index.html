@@ -13,17 +13,20 @@
 <body>
 
     <head>
-        <button class="cambiacolore" onclick="cambiaColore()" ondblclick="testo()">Se vedi l'ora, clicca qui!<div
+        <button class="cambiacolore" onclick="cambiaColore(), fras(), amici()" ondblclick="testo()">Se vedi l'ora, clicca qui!<div
                 id="orario"></div> </button>
 
-
+               <!-- UX: per il te che vede ho cercato di sensibilizzargli sul mondo dei non vedenti mettendo frasi a random e cambiando il colore della calcolarice casualmente-->
+                <!-- mi avrebbe piacciuto far si che si legga il risultato finale nel display però non sono riuscito  -->
+                <!-- per la UX ho fatto apposta che non si veda il numero al cliccare -->
     </head>
 
     <main>
 
         <div>
             <p>cliccaci ancora due volte!</p>
-            <p>Non tutti al mondo possono vederla così colorata</p>
+            <div ></div>
+           <textarea class="salumi"  cols="25" rows="4"></textarea>
         </div>
 
 
@@ -58,9 +61,9 @@
                     <button class="putris" onmouseover="uguale()" onclick="risultato(this)">=</button>
                 </div>
 
-                <audio class="uno" src="assets/uno.mp3"></audio>
+                <audio class="uno" src="assets/unoo.mp3"></audio>
                 <audio class="due" src="assets/due.mp3"></audio>
-                <audio class="tre" src="assets/tre.mp3"></audio>
+                <audio class="tre" src="assets/tree.mp3"></audio>
                 <audio class="quattro" src="assets/quattro.mp3"></audio>
                 <audio class="cinque" src="assets/cinque.mp3"></audio>
                 <audio class="sei" src="assets/sei.mp3"></audio>
@@ -74,6 +77,7 @@
                 <audio class="deviso" src="assets/deviso.mp3"></audio>
                 <audio class="meno" src="assets/meno.mp3"></audio>
                 <audio class="piu" src="assets/piu.mp3"></audio>
+                <audio class="amici" src="assets/amici.mp3"></audio>
 
 
 
@@ -95,10 +99,9 @@
     </footer>
 
 
+<script src="js/script.js"></script>
 
-
-
-    <script src="js/script.js"></script>
+    
 </body>
 
 </html>
